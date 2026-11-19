@@ -256,22 +256,22 @@
     {id:'s2', t:'Jeremy', d:SU}
   ];
   var ROUTINE = [
-    {id:'m1', t:'Clear the Triage queue',
-     d:'support@ emails + Help&nbsp;Center form tickets &rarr; accept/decline. On accept set <b>project &middot; assignee &middot; labels</b>.'},
-    {id:'m2', t:'Review what&rsquo;s in flight',
-     d:'<span class="chip">&#128269; Active work by developer</span> <span class="chip">&#128269; Stalled</span><br>Who&rsquo;s on what &mdash; anyone buried or idle? Rebalance. Stalled &gt;~1&nbsp;wk: <b>unblock / re-scope / drop</b>. Same pass = carryover: <b>keep / re-scope / drop</b> before adding.'},
-    {id:'m3', t:'Clear the review bottleneck',
-     d:'<span class="chip">&#128269; Review queue</span> (oldest first) &mdash; get long-sitting reviews merged <b>before</b> pulling new work.'},
+    {id:'m1', t:'Clear Triage',
+     d:'Accept or decline each support@ email and Help&nbsp;Center ticket. On accept, set <b>project &middot; assignee &middot; labels</b>.'},
+    {id:'m2', t:'Review work in flight',
+     d:'<span class="chip">&#128269; Active work by developer</span> <span class="chip">&#128269; Stalled</span> Rebalance anyone overloaded or idle. Anything stalled over a week: <b>unblock, re-scope or drop</b>.'},
+    {id:'m3', t:'Clear the review queue',
+     d:'<span class="chip">&#128269; Review queue</span> Merge the oldest reviews <b>before</b> starting new work.'},
     {id:'m4', t:'Plan next cycle',
-     d:'Pull ~<b>10&ndash;15</b> issues into the next cycle.'},
-    {id:'m5', t:'Make every cycle issue complete',
-     d:'<b>estimate &middot; assignee &middot; project &middot; priority.</b> Drive <span class="chip">&#128269; Cycle: missing estimate</span> to <b>zero</b> (Shift+E).'},
-    {id:'m6', t:'Status hygiene',
-     d:'Link the PR (auto-moves status); non-code issues moved by hand <b>(draft/open PR &rarr; In Progress &middot; review &rarr; In Review &middot; merge &rarr; Done)</b>; <b>never skip to Done.</b>'},
-    {id:'m7', t:'Close out',
-     d:'Confirm required fields on new issues &middot; glance <span class="chip">&#128269; Insights</span> (throughput / cycle-time trend).'},
-    {id:'m8', t:'Review Initiatives &amp; Projects health',
-     d:'Open <span class="chip">Initiatives &rarr; Projects</span> &mdash; skim each initiative and its projects: are the <b>health colours</b> and <b>target dates</b> still right? Fix any that have drifted.'}
+     d:'Pull in <b>10&ndash;15</b> issues. Decide carryover first: <b>keep, re-scope or drop</b>.'},
+    {id:'m5', t:'Complete every cycle issue',
+     d:'Each needs <b>estimate &middot; assignee &middot; project &middot; priority</b>. Get <span class="chip">&#128269; Cycle: missing estimate</span> to zero.'},
+    {id:'m6', t:'Check statuses',
+     d:'Link PRs so status moves itself; move non-code issues by hand. <b>Never skip straight to Done.</b>'},
+    {id:'m7', t:'Check initiative and project health',
+     d:'<span class="chip">Initiatives &rarr; Projects</span> Are the health colours and target dates still right? Fix any that drifted.'},
+    {id:'m8', t:'Close out',
+     d:'Confirm new issues have required fields. Glance at <span class="chip">&#128269; Insights</span> for throughput and cycle-time trends.'}
   ];
   var SEED = [{id:'o-seed-gh', t:'GitHub Actions usage &mdash; do we need this much? John raised the budget to $200/mo on 19 Nov.'}];
 
